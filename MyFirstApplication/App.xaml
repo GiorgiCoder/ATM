@@ -1,0 +1,15 @@
+﻿<Application
+    x:Class="MyFirstApplication.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:MyFirstApplication"
+    StartupUri="LogInWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <BitmapImage x:Key="usernameIcon" UriSource="C:\Users\Giorgi\source\repos\MyFirstApplication\MyFirstApplication\Assets\userNameIcon.png" />
+            <BitmapImage x:Key="passwordLock" UriSource="C:\Users\Giorgi\source\repos\MyFirstApplication\MyFirstApplication\Assets\passwordLock.png" />
+            <BitmapImage x:Key="user" UriSource="C:\Users\Giorgi\source\repos\MyFirstApplication\MyFirstApplication\Assets\userIcon.png" />
+            <ImageBrush x:Key="pinkBack" ImageSource="C:\Users\Giorgi\source\repos\MyFirstApplication\MyFirstApplication\Assets\pinkBackground.png" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Update="changePassword.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="changePINCodeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DeleteAccountWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DepositWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TransferToFundsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WithdrawalWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="changePassword.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="changePINCodeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DeleteAccountWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DepositWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LogInWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TransferToFundsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WithdrawalWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
